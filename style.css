@@ -1,0 +1,76 @@
+.customizer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.umbrella-container {
+  position: relative;
+}
+
+.umbrella-image {
+  width: 300px;
+  height: 300px;
+}
+
+.logo-container {
+  display: none;
+  position: absolute;
+  bottom: 15px;
+  left: 135px;
+}
+
+.logo-image {
+  width: 100%;
+  height: 20px;
+}
+
+.color-options-container {
+  margin-left: 200px;
+}
+
+.color-options {
+  display: flex;
+}
+#logo-upload {
+  visibility: hidden;
+  display: none;
+}
+
+#button-upload {
+  border-radius: 4px;
+  width: 380px;
+  height: 40px;
+  text-align: left;
+  color: white;
+  border-style: hidden;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.color-option {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+.upload-label {
+  cursor: pointer;
+}
+#pink {
+  background-color: #d63384;
+}
+
+#blue {
+  background-color: #0db9db;
+}
+
+#yellow {
+  background-color: #ffc107;
+}
+
+.color-option {
+  background-color: var(--umbrella-color);
+}
