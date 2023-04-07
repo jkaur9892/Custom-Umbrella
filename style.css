@@ -26,6 +26,17 @@
   height: 20px;
 }
 
+.label {
+  font-family: "Montserrat";
+  font-weight: 600;
+  width: 225px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+
 .color-options-container {
   margin-left: 200px;
 }
@@ -39,6 +50,7 @@
 }
 
 #button-upload {
+  background-color: #1a9ec9;
   border-radius: 4px;
   width: 380px;
   height: 40px;
@@ -60,6 +72,7 @@
   cursor: pointer;
 }
 #pink {
+  color: #d63384;
   background-color: #d63384;
 }
 
